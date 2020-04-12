@@ -24,9 +24,7 @@
 <script lang="ts">
 import {Component, Vue} from 'vue-property-decorator'
 @Component({
-    components:{
-
-    }
+    components:{}
 })
 export default class LayoutHeader extends Vue {
 
