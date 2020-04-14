@@ -36,6 +36,9 @@ userCommand(command:string):void{
     localStorage.removeItem("tsToken");
     this.$router.replace("/login");
   }
+  if(command == "usercenter"){
+    this.$router.push("/user")
+  }
 }
 created(){
   // console.log(this.getUsers)
